@@ -2,17 +2,17 @@
 
 /* appearance */
 static const unsigned int borderpx  = 3;        /* border pixel of windows */
-static const unsigned int gappx     = 5;        /* gaps between windows */
+static const unsigned int gappx     = 25;        /* gaps between windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "azukifontB:size=10" };
-static const char dmenufont[]       = "azukifontB:size=10";
-static const char col_gray1[]       = "#54487a";
+static const char *fonts[]          = { " Jet Brains Mono Bold:size=14" };
+static const char dmenufont[]       = "JetBrainsMono:size=14";
+static const char col_gray1[]       = "#FFFFFF"; /* Background */
 static const char col_gray2[]       = "#444444";
-static const char col_gray3[]       = "#bbbbbb";
-static const char col_gray4[]       = "#54487a";
-static const char col_cyan[]        = "#a1a1a1";
+static const char col_gray3[]       = "#22374c"; /* Foreground Text */
+static const char col_gray4[]       = "#FFFFFF"; /* Text */
+static const char col_cyan[]        = "#22374c"; /* Foreground */
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
@@ -20,7 +20,7 @@ static const char *colors[][3]      = {
 };
 
 /* tagging */
-static const char *tags[] = { " www ", " >_ ", " - ", " = ", " ≡ " };
+static const char *tags[] = { "  ", "  ", "  ", "  ", "  " };
 
 static const Rule rules[] = {
 	/* xprop(1):
